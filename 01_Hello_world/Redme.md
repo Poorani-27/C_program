@@ -1,2 +1,0 @@
-### Basic program
-![](./Untitled.png)
