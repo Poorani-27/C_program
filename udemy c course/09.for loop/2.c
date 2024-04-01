@@ -1,12 +1,10 @@
 #include <stdio.h>
 int main (){
-    int a=12;
-    char b='a';
-    float c=1.33;
-    printf("integer = %d\n",a);
-    printf("character = %c\n",b);
-    printf("float = %f",c);
-
-
+  
+   for (int i=1; i<=5;i++){
+      for (int j=1; j<=5; j++){
+          printf("%d *%d = %d\n",i , j,i*j);
+      }
+   }
     return 0 ;
 }

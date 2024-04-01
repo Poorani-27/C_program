@@ -1,12 +1,11 @@
 #include <stdio.h>
+#include <string.h>
 int main (){
-    int a=12;
-    char b='a';
-    float c=1.33;
-    printf("integer = %d\n",a);
-    printf("character = %c\n",b);
-    printf("float = %f",c);
-
-
-    return 0 ;
+    char name[20]="kavi";
+    char msg[]=" hello world ";
+     printf("\n%d",strlen(name));
+    strcat(name,msg);
+    printf("\n%s",name);
+    printf("\n%d",strlen(name));
+    return 0;
 }

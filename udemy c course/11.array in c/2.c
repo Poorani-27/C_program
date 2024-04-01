@@ -1,12 +1,13 @@
 #include <stdio.h>
 int main (){
-    int a=12;
-    char b='a';
-    float c=1.33;
-    printf("integer = %d\n",a);
-    printf("character = %c\n",b);
-    printf("float = %f",c);
-
-
-    return 0 ;
+    float marks[]={12.3,22.4,22,44.33,55.22} ;
+    float total= 0;
+    for(int i=1;i<=5;i++){
+    printf("%f\n",marks[i]);
+    total += marks[i];
+    }
+    total = total / sizeof(marks);
+    printf("%d\n",sizeof(marks));
+    printf("total = %f",total);
+    return 0;
 }

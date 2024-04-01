@@ -1,11 +1,13 @@
 #include <stdio.h>
 int main (){
-    int a=12;
-    char b='a';
-    float c=1.33;
-    printf("integer = %d\n",a);
-    printf("character = %c\n",b);
-    printf("float = %f",c);
+   int num;
+   printf("Enter a number : ");
+
+   scanf("%d",&num);
+   while (num!=0){
+    printf("%d\n",num);
+    num=--num;
+   }
 
 
     return 0 ;

@@ -1,12 +1,9 @@
 #include <stdio.h>
 int main (){
-    int a=12;
-    char b='a';
-    float c=1.33;
-    printf("integer = %d\n",a);
-    printf("character = %c\n",b);
-    printf("float = %f",c);
-
-
-    return 0 ;
+  int num ;
+  float num1;
+  printf("Enter a integer value and a float value :\n");
+  scanf("%d%f",&num ,&num1);
+  printf("\nYou entered %d integer value and %f float value", num ,num1);
+  return 0;
 }
