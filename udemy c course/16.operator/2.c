@@ -12,7 +12,6 @@ int main() {
     int quotient = A / B;
     int remainder = A % B;
 
-    // Print results
     printf("Sum: %d\n", sum);
     printf("Difference: %d\n", difference);
     printf("Product: %d\n", product);
